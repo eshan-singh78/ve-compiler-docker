@@ -78,6 +78,3 @@ Run the pulled image:
 docker run -p 4000:4000 eshan04dev/ve-compiler-container
 ```
 
-## License
-MIT License
-```
