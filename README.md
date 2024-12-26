@@ -1,12 +1,12 @@
 # VE Compiler Container
 
 ## Overview
-This Docker container is designed to run a variety of compilers including C, C++, Python, Java, and JavaScript. It also includes a custom server built using Node.js and Express, which allows you to compile code via an HTTP API.
+This Docker container is designed to run a variety of compilers including C, C++, Python, Java, JavaScript, Go, Lua, Rust. It also includes a custom server built using Node.js and Express, which allows you to compile code via an HTTP API.
 
 The VE Compiler 2.0 is included to handle the compilation of code, and the container exposes an API to compile code in multiple languages.
 
 ## Features
-- Supports multiple programming languages: C, C++, Python, Java, JavaScript.
+- Supports multiple programming languages: C, C++, Python, Java, JavaScript, Rust, Lua, Go.
 - API for compiling code via HTTP requests.
 - Simple to set up and use with Docker.
 - Built with Node.js, Express, and VE Compiler 2.0.
